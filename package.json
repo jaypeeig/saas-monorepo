@@ -15,7 +15,7 @@
   "name": "saas-monorepo",
   "packageManager": "yarn@1.19.2",
   "workspaces": [
-    "apps/*",
-    "packages/*"
+    "apps/**",
+    "packages/**"
   ]
 }

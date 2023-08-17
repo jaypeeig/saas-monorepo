@@ -1,10 +1,10 @@
 {
-  "name": "@saas/spa-admin",
+  "name": "@saas/spa-landing",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev --port 4000",
+    "dev": "nuxt dev --port 3000",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
