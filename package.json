@@ -2,7 +2,9 @@
   "private": true,
   "scripts": {
     "build": "turbo run build",
-    "dev": "turbo run dev",
+    "dev": "turbo run dev --no-daemon",
+    "test": "turbo run test --no-daemon",
+    "test:ui": "turbo run test --filter=@saas/ui --no-daemon",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
